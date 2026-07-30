@@ -1,0 +1,21 @@
+import java.util.*;
+public class button {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int button = sc.nextInt();
+        
+        if (button == 1){
+            System.out.println("Raj");
+        }
+        else if (button == 2) {
+          System.out.println("Jitendra");  
+        }
+        else if (button == 3){
+            System.out.println("Suman");
+        }
+        else{
+            System.out.println("invailed button");
+        }
+        sc.close();
+    }
+}
