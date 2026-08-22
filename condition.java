@@ -13,3 +13,4 @@ public class condition {
         sc.close();
     }
 }
+
