@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class statament {
  public static void main(String args[]){
@@ -8,15 +8,14 @@ public class statament {
     if (a ==b ){
         System.out.println("equal");
     }
-    else{
-        if (a>b){
+    else if (a>b){
             System.out.println("a is greater than b");
         }
         else{
             System.out.println("a is less than b");
         }
-       
     }
-     sc.close();
+    
  }
-}
+
+
