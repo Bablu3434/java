@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.geom.*;
+import java.awt.geom.Path2D;
+import java.nio.file.Path;
 
 public class RadhaArt extends JPanel {
 
@@ -85,13 +86,14 @@ public class RadhaArt extends JPanel {
 
         // Saree main
         g2.setColor(new Color(220, 150, 205));
-        Path saree = new Path2D.Double();
+        Path2D saree = new Path2D.Double();
 
-        saree.moveTo(350, 470);
-        saree.curveTo(290, 570, 250, 700, 200, 760);
-        saree.lineTo(850, 760);
-        saree.curveTo(820, 650, 780, 540, 700, 470);
-        saree.closePath();
+       saree.moveTo(350, 470);
+       saree.curveTo(290, 570, 250, 700, 200, 760);
+       saree.lineTo(850, 760);
+       saree.curveTo(820, 650, 780, 540, 700, 470);
+       saree.closePath();
+
 
         g2.fill(saree);
 
@@ -99,7 +101,7 @@ public class RadhaArt extends JPanel {
         g2.setColor(new Color(255, 220, 120));
         g2.setStroke(new BasicStroke(7));
 
-        Path border = new Path2D.Double();
+        Path2D border = new Path2D.Double();
         border.moveTo(350, 470);
         border.curveTo(290, 570, 250, 700, 200, 760);
         border.lineTo(850, 760);
@@ -189,7 +191,7 @@ public class RadhaArt extends JPanel {
         // =========================
         g2.setColor(new Color(245, 180, 220, 170));
 
-        Path dupatta = new Path2D.Double();
+        Path2D dupatta = new Path2D.Double();
         dupatta.moveTo(430, 200);
         dupatta.curveTo(650, 100, 800, 250, 820, 650);
         dupatta.lineTo(740, 650);
