@@ -14,7 +14,9 @@ public class statament {
         else{
             System.out.println("a is less than b");
         }
+        sc.close();
     }
+    
     
  }
 
