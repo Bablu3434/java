@@ -1,4 +1,4 @@
-class Rectangle {
+class Rectangle{
     int length, width;
 
     // Constructor
