@@ -44,7 +44,7 @@ public class Main {
         String name = sc.nextLine();
 
         System.out.print("Enter Marks: ");
-        double marks = sc.nextDouble();
+        double marks = sc.nextDouble();JPanel 
 
         Student s1 = new Student(roll, name, marks);
         s1.display();
